@@ -2,7 +2,6 @@
 
 > Corona Virus COVID-19 Data Visualisation. Data is loaded from [John Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19) via a CSV files.
 
-Available at [https://paul-em.github.io/covid-19-curves/](https://paul-em.github.io/covid-19-curves/)
 
 ## Build Setup
 
