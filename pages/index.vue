@@ -62,7 +62,6 @@ import csvParser from 'papaparse';
 import LineChart from '../components/LineChart.vue';
 import MultiSelect from '../components/MultiSelect.vue';
 import LocationTable from '../components/LocationTable.vue';
-import GithubCorner from '../components/GithubCorner.vue';
 import populations from '../assets/populations';
 
 function fill(num) {

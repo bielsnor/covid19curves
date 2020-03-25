@@ -3,7 +3,7 @@ const pkg = require('./package');
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/covid-19-curves/',
+    base: '/covidcurve/',
   },
 } : {};
 
@@ -28,19 +28,19 @@ module.exports = {
         rel: 'apple-touch-icon',
         type: 'image/png',
         sizes: '180x180',
-        href: '/covid-19-curves/apple-touch-icon.png',
+        href: '/dist/apple-touch-icon.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/covid-19-curves/favicon-32x32.png',
+        href: '/dist/favicon-32x32.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/covid-19-curves/favicon-16x16.png',
+        href: '/dist/favicon-16x16.png',
       },
     ],
   },
